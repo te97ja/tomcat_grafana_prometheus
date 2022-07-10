@@ -1,0 +1,6 @@
+---
+- hosts: 172.31.13.29
+  become: yes
+  become_user: root
+  roles:
+    - tomcat

@@ -1,0 +1,9 @@
+---
+port: 8085
+manager_username: satya
+manager_password: 12345678
+admin_username: admin
+admin_password: 12345678
+
+
+# vars file for tomcat
