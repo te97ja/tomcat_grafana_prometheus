@@ -32,3 +32,8 @@
   become_user: root
   roles:
     - tomcat
+    
+- hosts: tomcat
+  become: yes
+  roles:
+    - git
