@@ -23,7 +23,7 @@
 
 - name: starting tomcat
 #  become: yes
-  shell: nohup /opt/tomcat/bin/startup.sh
+  shell: sh /opt/tomcat/bin/startup.sh
 
 - name: Changing port
   template:
